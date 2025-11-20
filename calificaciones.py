@@ -27,7 +27,7 @@ def user_input_features():
 df = user_input_features()
 
 
-datos =  pd.read_csv('student_exam_scores_prediction.csv', encoding='latin-1')
+datos =  pd.read_csv('student_exam_scores.csv', encoding='latin-1')
 
 datos.columns = datos.columns.str.strip()
 
