@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.write(''' # Predicción de calificación  ''') # el titulo que se agrega a la app
-st.image("Examen_25.jpeg", caption="Predicción de calificación en examen.") # pie de figura
+st.image("Examen_25.jpg", caption="Predicción de calificación en examen.") # pie de figura
 # nombre en el cual se guardo la imagen
 st.header('Datos') # encabezado
 
