@@ -44,7 +44,7 @@ b1= LR.coef_
 b0= LR.intercept_
 prediction=b0+b1[0]*df['hours_studied']+b1[1]*df['sleep_hours']+b1[2]*df['attendance_percent']+b1[3]*df['previous_scores']
 
-prediction = LR.predict(df)
+
 
 st.subheader('Calculo de calificación')
 st.write('La calificación de la persona es: ', prediction) 
